@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textInputMargin">22dp</dimen>
+    <dimen name="textInputMarginTop">10dp</dimen>
+    <dimen name="descsize">17dp</dimen>
+    <dimen name="confirmarsize">33dp</dimen>
+    <dimen name="datossize">17dp</dimen>
+    <dimen name="ButtonMarginTop">22dp</dimen>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalle_contacto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/confirmarsize"
+        />
+
+    <TextView
+        android:id="@+id/tvNombreconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreconf"
+        android:textSize="@dimen/datossize"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        />
+
+    <TextView
+        android:id="@+id/tvFechaconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechaconf"
+        android:textSize="@dimen/datossize"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        />
+
+    <TextView
+        android:id="@+id/tvTelefonoconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefonoconf"
+        android:textSize="@dimen/datossize"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        />
+
+    <TextView
+        android:id="@+id/tvEmailconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailconf"
+        android:textSize="@dimen/datossize"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        />
+
+    <TextView
+        android:id="@+id/tvDescripcionconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcionconf"
+        android:textSize="@dimen/datossize"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        />
+
+    <Button
+        android:id="@+id/BotonEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_editar"
+        android:theme="@style/MiBotonRaised"
+        android:layout_marginTop="@dimen/ButtonMarginTop"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

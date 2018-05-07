@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        />
+
+    <DatePicker
+        android:id="@+id/DPfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:textSize="@dimen/descsize"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/textInputMargin"
+        android:layout_marginRight="@dimen/textInputMargin"
+        />
+
+    <Button
+        android:id="@+id/BotonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/texto_boton_siguiente"
+        android:theme="@style/MiBotonRaised"
+        android:layout_marginTop="@dimen/textInputMarginTop"
+        />
+
+</LinearLayout>

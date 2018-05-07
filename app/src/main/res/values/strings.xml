@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FormContacto</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción Contacto</string>
+    <string name="texto_boton_siguiente">Siguiente</string>
+    <string name="confirmar">Confirmar Datos</string>
+    <string name="nombreconf">David Morales</string>
+    <string name="fechaconf">10/05/1996</string>
+    <string name="telefonoconf">11118888</string>
+    <string name="emailconf">david@gmail.com</string>
+    <string name="descripcionconf">Prueba de descripción</string>
+    <string name="texto_boton_editar">Editar Datos</string>
+</resources>
